@@ -1,0 +1,17 @@
+id-unique identifier.use for apply specific individual style.so when we apply style for id we will use
+# followd by ID name.
+Use class when we apply style for multiple element.When we add class attribute for styling we will use
+dot followed by class name.
+universal: apply for all.*
+div:  it's used to group content so it can be easily styled.  It has no effect on the content or layout until styled
+
+
+
+CSS:
+**overflow**
+If you don’t set the overflow property at all, the default is visible
+
+The CSS overflow property controls what happens to content when is too big to fit into an area.
+imagine a div in which you’ve explicitly set to be 200px wide, but contains an image that is 300px wide. That image will stick out of the div and be visible by default. Whereas if we set the overflow value to hidden, the image will cut off at 200px.
+hidden: overflowing content will be hidden.
+scroll: similar to hidden except users will be able to scroll through the hidden content.

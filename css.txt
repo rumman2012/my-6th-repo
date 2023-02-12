@@ -1,0 +1,120 @@
+CSS:
+
+**display**
+Every element on a web page is a rectangular box. The display property in CSS determines just how that rectangular box behaves.
+display: inline
+The default value for elements.Think of elements like <span>, <em>, or <b> and how wrapping text in those tags doesn’t break the flow of the text.The <em> element has a 1px red border.
+An inline element will not accept height and width. It will just ignore it.
+
+display: inline-block
+inline-block is very similar to inline.The difference is that you are able to set a width and height.
+
+display: block
+They are usually container elements, like <div>, <section>, and <ul>. Also text “blocks” like <p> and <h1>
+By default (without setting a width) they take up as much horizontal space as they can.
+
+**display**
+
+**flexbox***
+Before the Flexbox Layout module, there were four layout modes
+Block, for sections in a webpage
+Inline, for text
+Table, for two-dimensional table data
+Positioned
+
+To start using the Flexbox model, you need to first define a flex container.
+A flex container with three flex items:
+<div class="flex-container">
+	<div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+
+The flex container becomes flexible by setting the display property to flex:
+
+.flex-container {
+  display: flex;
+}
+The flex container properties are:
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+
+The flex-direction property defines in which direction the container wants to stack the flex items.
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+The column-reverse value stacks the flex items vertically (but from bottom to top):
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+The row value stacks the flex items horizontally (from left to right):
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+The row-reverse value stacks the flex items horizontally (but from right to left):
+
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+The flex-wrap property specifies whether the flex items should wrap or not.
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+The nowrap value specifies that the flex items will not wrap (this is default):
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+The justify-content property is used to align the flex items:
+The center value aligns the flex items at the center of the container:
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+The space-around value displays the flex items with space before, between, and after the lines:
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+The space-between value displays the flex items with space between the lines:
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+The align-items property is used to align the flex items.
+The center value aligns the flex items in the middle of the container:
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+
+**flexbox***
+
+
+**overflow**
+If you don’t set the overflow property at all, the default is visible
+
+The CSS overflow property controls what happens to content when is too big to fit into an area.
+imagine a div in which you’ve explicitly set to be 200px wide, but contains an image that is 300px wide. That image will stick out of the div and be visible by default. Whereas if we set the overflow value to hidden, the image will cut off at 200px.
+hidden: overflowing content will be hidden.
+scroll: similar to hidden except users will be able to scroll through the hidden content.
+
+**overflow**
+
+Translate:
+This transform function moves an element sideways, or up and down.One value will move the element to the right (negative values to the left). If a second value is provided, that second value will move it down (negative values up).

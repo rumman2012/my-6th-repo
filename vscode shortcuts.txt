@@ -1,0 +1,74 @@
+I have vscode open so lets jump right into the first shortcut
+I wanted to show you how to add boilerplate HTML
+I have a blank index.html file to start off and if we type in an exclamation point 
+Its added all the tag we need pretty much in every HTML
+Next shortcut I'm going to show is nested tag using right or greater than angular bracket
+let's say we want to create section tag with a div tag nested inside it.
+so we will type section right angular bracket and div then eneter
+section>div
+lets say we want create div with a class of flex parent and inside of div tag we want to create
+another div with class flex child
+so first we will type dot.flex_parent angular bracket dot flex_child
+.flex_parent>.flex_child
+<div class="flex_parent">
+<div class="flex_child"></div>
+</div> 
+Also create sibling tag meaning tags are on the same level as another using the plus sign 
+lets create flex_parent div but two div of flex_child
+first typing the dot then flex_parent then right angular bracket then dot flex_child + flex_child
+         .flex_parent>.flex_child+.flex_child
+		 
+		 <div class="flex_parent">
+             <div class="flex_child"></div>
+             <div class="flex_child"></div>
+         </div>
+		 
+instead of typing plus flex child we an actually multiply by 2
+.flex_parent>.flex_child*2   
+
+so we have an unordered list then create bunch of list item 
+ ul>li*6
+    <ul>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+     </ul>
+	 
+ul>li*3{item-#}
+<ul>
+        <li>itwm-1</li>
+        <li>itwm-2</li>
+        <li>itwm-3</li>
+    </ul>
+lorem ispum text
+lorem20 it added 20 word
+	
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur velit obcaecati, possimus illo ut ea porro suscipit aliquam impedit consectetur?
+
+for example parargraph tag and add some lorem ipsum text 
+p>lorem100
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit quibusdam, alias dignissimos aliquid nesciunt aliquam pariatur fuga quidem illum sunt facilis molestias excepturi, debitis, quaerat repellat dolorem blanditiis error tempore iusto ex iste et? Veritatis quia adipisci officia reiciendis minus cum nihil odit. Perferendis voluptas error voluptate fugiat magni ratione veniam iure aliquid qui! Dicta, recusandae necessitatibus totam quam praesentium sequi repellendus quo, esse, vitae ex ipsam? Excepturi illo quibusdam veniam ea suscipit minus doloribus, aperiam tenetur voluptate minima est esse impedit cum explicabo accusamus earum eligendi dolor iure iste voluptas animi enim delectus, consequatur recusandae? Sapiente, iste doloremque.</p>
+Now I want to create five paragraphs of lorem ispum text. Here we dont want to just
+muliply lorem20 * 5 we have to do is use parenthesis that grouping around paragraphs
+and outside of this we'll add the asterisk and times 5
+
+(p>lorem20)*5
+
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos omnis vitae at architecto nobis blanditiis quibusdam cum unde dignissimos.</p>
+        <p>Vel, pariatur. Sapiente in odio veniam facilis minus eum nobis voluptates sit quas dignissimos odit asperiores deleniti, ducimus quod corrupti!</p>
+        <p>Ab ipsam possimus itaque, iure cum doloribus, minus architecto impedit quod, ea aut laboriosam maiores dolore accusantium neque tempore sunt!</p>
+        <p>Nemo nulla fuga repudiandae possimus ipsum exercitationem autem eius. Architecto recusandae velit reiciendis eveniet dolorum sequi ipsum, omnis ea nemo.</p>
+        <p>Eum aliquam at nisi ad quod cum nemo minus magnam officiis fugiat? Eligendi non incidunt deserunt debitis inventore fugiat. Expedita.</p>
+	
+(li>a)*5
+ <li><a href=""></a></li>
+       <li><a href=""></a></li>
+       <li><a href=""></a></li>
+       <li><a href=""></a></li>
+       <li><a href=""></a></li>
+	   
+use ctrl + ALT pressing the up ↑ or down ↓ arrow keys to add cursors.
+
